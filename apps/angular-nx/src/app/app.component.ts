@@ -10,5 +10,6 @@ import { NxWelcomeComponent } from './nx-welcome.component';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'angular-nx';
+  title = 'angular-nx2';
+  text = 'Hello';
 }

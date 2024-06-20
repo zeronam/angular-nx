@@ -5,8 +5,9 @@
   "scripts": {
     "dev": "nx serve",
     "build": "nx build",
-    "lint": "nx run-many --all --target=lint",
-    "test": "nx run-many --all --target=test"
+    "lint": "nx run-many --all --target=lint --target=test",
+    "test": "nx run-many --all --target=test",
+    "all": "npx nx run-many -t build lint test"
   },
   "private": true,
   "dependencies": {
@@ -18,6 +19,9 @@
     "@angular/platform-browser": "~18.0.0",
     "@angular/platform-browser-dynamic": "~18.0.0",
     "@angular/router": "~18.0.0",
+    "@ngrx/effects": "^18.0.0",
+    "@ngrx/entity": "^18.0.0",
+    "@ngrx/store": "^18.0.0",
     "@nx/angular": "19.2.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
