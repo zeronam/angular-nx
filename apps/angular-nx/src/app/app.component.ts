@@ -11,5 +11,4 @@ import { NxWelcomeComponent } from './nx-welcome.component';
 })
 export class AppComponent {
   title = 'angular-nx2';
-  text = 'Hello';
 }
