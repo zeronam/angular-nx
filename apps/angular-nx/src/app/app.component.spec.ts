@@ -22,6 +22,6 @@ describe('AppComponent', () => {
   it(`should have as title 'angular-nx'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-nx2');
+    expect(app.title).toEqual('angular-nx');
   });
 });
